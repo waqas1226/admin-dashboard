@@ -1,0 +1,80 @@
+export const userInputs = 
+[
+{
+    id:1,
+    label:"one",
+    type:"text",
+    placeholder:"Input1"
+},
+{
+    id:2,
+    label:"two",
+    type:"text",
+    placeholder:"Input2"
+},
+
+    {
+    id:3,
+    label:"three",
+    type:"text",
+    placeholder:"Input3"
+},
+
+    {
+    id:4,
+    label:"four",
+    type:"text",
+    placeholder:"Input4"
+},
+    {
+    id:5,
+    label:"five",
+    type:"text",
+    placeholder:"Input5"
+},
+    {
+    id:6,
+    label:"six",
+    type:"text",
+    placeholder:"Input6"
+},
+
+    {
+    id:7,
+    label:"seven",
+    type:"text",
+    placeholder:"Input7"
+}
+]
+export const ProInputs = [
+{
+    id:1,
+    label:"one",
+    type:"text",
+    placeholder:"Input11"
+},
+{
+    id:2,
+    label:"two",
+    type:"text",
+    placeholder:"Input12"
+},
+{
+    id:3,
+    label:"three",
+    type:"text",
+    placeholder:"Input13"
+},
+{
+    id:4,
+    label:"four",
+    type:"text",
+    placeholder:"Input14"
+},
+{
+    id:5,
+    label:"five",
+    type:"text",
+    placeholder:"Input15"
+}
+]
