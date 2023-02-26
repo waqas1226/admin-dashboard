@@ -14,7 +14,7 @@ const SideBar = (props) =>{
     return (                               
 
         <div className="sidebar">
-            <div className="admin">My Admin</div>
+            <div className="admin">Admin Dashboard</div>
            <ul className="sidebarul">
             <div className="it">MAIN</div>
             <li className="df al pd"><Dashboard/><Link to="/">Dashboard</Link> </li>
@@ -23,8 +23,8 @@ const SideBar = (props) =>{
             <div className="it">LISTS</div>
             <li className="df al pd"><Person className="sm"/><Link to="/users">Users</Link> </li>
             <li className="df al pd"><Store/><Link to="/products">Products</Link> </li>
-            <li className="df al pd"><CreditCard/><Link to="/B">Orders</Link> </li>
-            <li className="df al pd"><LocalShipping/><Link to="/Search">Delivery</Link> </li>
+            <li className="df al pd"><CreditCard/><Link to="/">Orders</Link> </li>
+            <li className="df al pd"><LocalShipping/><Link to="/">Delivery</Link> </li>
 <hr/>
 
             <div className="it">USEFULL</div>

@@ -5,6 +5,7 @@ import SideBar from "../SideBar/SideBar";
 import Chart from "../Chart/Chart";
 import pic from "../../../src/pic.jpg";
 import List from "../Table/Table";
+import { Link } from "react-router-dom";
 
 const Single = (props) => {
   const [question, setQuestion] = useState("");
@@ -16,7 +17,7 @@ const Single = (props) => {
         <NavBar />
         <div className="singletop">
           <div className="info">
-            <button className="edit">Edit</button>
+            <Link className="edit" to='/users/new'>Edit</Link>
             <div className="singleimg">
               {" "}
               <img className="image" src={pic} alt="pic" />
